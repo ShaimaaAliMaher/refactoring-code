@@ -1,0 +1,124 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eeedf5;
+ }
+.navbar {
+      background-color: #295F98;
+ } 
+.navbar  a{
+   color: white;
+   margin-left: 8px;
+}
+.navbar button , .navbar button span{
+    color: #F5EDED;
+}
+ .navbar::after {
+     content: "";
+     position: absolute;
+     bottom: -56px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 100px;
+     height: 5px;
+     background-color:#295F98;
+ }
+ .navbar a:hover {
+     text-decoration: underline;
+     color: rgb(253, 251, 215);
+ }
+ h1{
+    padding-top: 4px;
+    text-align: center;
+    color: #233044;
+ }
+ .card {
+     border: 1px solid #e3ebf3;
+     margin-bottom: 16px;
+     padding: 20px;
+     background-color:#f5f3f3;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     border-radius: 25px;
+ }
+.card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 8px 16px rgba(12, 12, 12, 0.2);
+ }
+  .carg h2 {
+     font-size: 1.5rem;
+     margin-bottom: 15px;
+ }
+ .card p {
+     color: #414040;
+     line-height: 1.6;
+ }
+ .card .btn{
+     background-color: #295F98;
+     border: none;
+    color: #ffffff;
+    border-radius: 12px;
+ }
+ .card .btn:hover {
+     background-color: #11aece;
+     color: #e3f9ff;
+ }
+ .sidebar {
+     background-color: #f5f3f3;
+     padding: 20px;
+     border-radius: 15px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     margin-bottom: 16px;
+ }
+.sidebar h3 {
+     margin-bottom: 20px;
+     font-size: 1.2rem;
+     font-weight: bold;
+ }
+ .sidebar ul {
+     list-style-type: none;
+     padding-left: 0;
+ }
+ .sidebar ul li {
+     margin-bottom: 10px;
+ }
+ .sidebar ul li a {
+     color: #4D869C;
+     text-decoration: none;
+ }
+.sidebar ul li a:hover {
+     text-decoration: underline;
+     color: #11aece;
+ }
+.back{
+    margin-left: 30px;
+    background-color: #295F98;
+    border: none;
+    outline: none;
+    padding: 9px 90px;
+    border-radius: 24px;
+    font-size: larger;
+}
+.back a{
+    text-decoration: none;
+    color: #f8f8f8;
+   
+}
+.back:hover{
+   background-color: #11aece;
+}
+ .footer {
+     background-color: #295F98;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     margin-top: 40px;
+ }
+ .footer p {
+     margin: 0;
+ }
+ 
